@@ -20,7 +20,8 @@ def download_urls(pattern_name, max_images, path_dest="assets"):
         img_path = f"{path_dest}/{pattern_name}/{pattern_name}{index}.jpg"
         img_paths.append(img_path)
         download_url(item, img_path, show_progress=False)
-        sleep(1)
+        if index == 10 or 20:
+            sleep(10)
 
 
 # recupere localement une liste d'image dans un dir donné
