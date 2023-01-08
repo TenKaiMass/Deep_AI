@@ -1,0 +1,12 @@
+path: ../data 
+train: 
+   - images
+val: 
+   - images
+
+# # Classes
+names:
+   0: feux_de_signalisation
+   1: limitation_de_vitesse
+   2: pieton
+   3: stop
