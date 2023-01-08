@@ -27,7 +27,7 @@ from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 from matplotlib.figure import Figure
 
 path = './data/images'
-model = torch.hub.load('ultralytics/yolov5', 'custom', path='yolov5/runs/train/exp5/weights/best.pt', force_reload=True)
+model = torch.hub.load('ultralytics/yolov5', 'custom', path='myYOLO/best.pt', force_reload=True)
 fig, ax = plt.subplots(2,4, figsize=(20,10))
 imgs = os.listdir('./data/images')
 imgname = np.random.choice(imgs)
