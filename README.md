@@ -1,15 +1,19 @@
 # Reconnaissance et Detection panneaux de signalisation
+## Demo
+Pour une simple demo executé `DemoYolo5.ipynb``
+il ajoutera les datas et utilisera un model que j'ai entrainé.
 
+--
 L'ojectif de ce projet est d'utiliser YOLO5 qui est un model de reconnaissance utilisé dans les Tesla (a confirmer).
 Nous aurons alors besoin d'utilisé.
 Liste des fichier important :
-```md
-- MyModules/xmlGestion.py contient les fonctions de conversion au format yolo
-- SignIA/setup.ipynb qui execute toutes les étapes de la gestion des data (de leur  importation à manipulation)
-- SignIA/VOC.yaml ce fichier configure l'entrainement d'un point de vue des datas, avec un nombre pour labelisé, la localisation des datas (entrainement et evaluation)
-- SignIA/yolo5.ipynb qui va lui gerer ce qui conserne le model (de son importation a la realisation de son entrainement)
-- SignIA/Yolo5Sign.py qui est sensé utilisé le model pour le tester sur des image random (a mettre sur streamlit ou fastapi)
-```
+
+- `MyModules/xmlGestion.py` contient les fonctions de conversion au format yolo
+- `SignIA/setup.ipynb` qui execute toutes les étapes de la gestion des data (de leur  importation à manipulation)
+- `SignIA/VOC.yaml` ce fichier configure l'entrainement d'un point de vue des datas, avec un nombre pour labelisé, la localisation des datas (entrainement et evaluation)
+- `SignIA/yolo5.ipynb` qui va lui gerer ce qui conserne le model (de son importation a la realisation de son entrainement)
+- `SignIA/Yolo5Sign.py `qui est sensé utilisé le model pour le tester sur des image random (a mettre sur streamlit ou fastapi)
+
 > A noter que le README ne sera pas blindé d'information car le code est lui meme commenté. de + les datas et yolo5 ne seront pas dans le depot git afin de ne pas surcharger.
 
 ## Explication du processus réalisé
@@ -19,7 +23,7 @@ Liste des fichier important :
 
 Comme enoncé plus haut pour recuperer les datas il faudra executer le `setup.ipynb`
 
- > Les datas se trouve dans un drive
+> Les datas se trouve dans un drive
 
 ## YOLO5
 
