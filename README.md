@@ -3,6 +3,9 @@
 Pour une simple demo executé `DemoYolo5.ipynb``
 il ajoutera les datas et utilisera un model que j'ai entrainé.
 
+L'application est deployer sur `streamlit` et surtout sur `huggingface`qui fait office de cloud:
+https://huggingface.co/spaces/TenKaiMass/Yolov5_panneau_de_signalisation_FRANCAIS?logs=build
+
 --
 L'ojectif de ce projet est d'utiliser YOLO5 qui est un model de reconnaissance utilisé dans les Tesla (a confirmer).
 Nous aurons alors besoin d'utilisé.
